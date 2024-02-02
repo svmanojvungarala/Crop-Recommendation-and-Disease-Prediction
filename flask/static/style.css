@@ -1,0 +1,53 @@
+html{ 
+    font-family:  "Montserrat", sans-serif;
+}
+input{
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    }
+      
+      /* Center all fields */
+  body {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("https://cdn.britannica.com/89/140889-050-EC3F00BF/Ripening-heads-rice-Oryza-sativa.jpg");
+    background-size: cover;
+    }
+        
+        /* Set font style for all elements */
+  header{
+    font-size: x-large;
+    }
+        
+        /* Alternatively, you can set font style for specific elements, like this: */
+        
+        /* Set font style for headings */
+  h1, h2, h3, h4, h5, h6 {
+    font-size: larger;
+    }
+        
+        /* Set font style for paragraphs */
+  p {
+    font-size: large
+    }
+
+label {
+    background-color: black;
+}
+
+#result {
+    color:  rgb(0, 229, 255);
+    font-size: xx-large;
+    font-family: monospace;
+    padding: 20px;
+}
